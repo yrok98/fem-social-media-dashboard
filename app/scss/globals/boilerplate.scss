@@ -1,0 +1,16 @@
+// si un élément est doté d'un rembourrage,
+// la largeur totale inclura le rembourrage et ne s'ajoutera pas à celui-ci.
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-inter); 
+}
